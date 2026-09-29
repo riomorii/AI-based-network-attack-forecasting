@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Generated raw / sequence / model-ready data
+data/raw/
+data/sequences/
+data/model_ready/
+
+# Generated processed dataset
+data/processed/cicids2018_processed.parquet
+
+# Generated evaluation outputs
+data/evaluation/
+
+# Generated model checkpoints
+models/best_model.pth
+models/baseline_best_model.pth
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
