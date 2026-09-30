@@ -434,10 +434,6 @@ Possible extensions include:
 - Containerized deployment.
 - Production-grade infrastructure and scaling.
 
-## License
-
-Add the project's intended license before public redistribution.
-
 ## Project Status
 
 The current version has been deployed and verified end-to-end:
